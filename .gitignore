@@ -1,0 +1,25 @@
+# Dataset (download from PhysioNet; never commit)
+data/raw/
+data/processed/
+
+# Local waveform plots (derived from PTB-XL records)
+results/eda/waveforms/
+
+# Model weights and large outputs
+*.pt
+*.pth
+*.ckpt
+results/**/*.npy
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+results/**/*.npz

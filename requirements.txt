@@ -1,0 +1,18 @@
+# PrivFedXAI dependencies
+# 1. conda create -n privfedxai python=3.11 && conda activate privfedxai
+# 2. Install PyTorch FIRST using the selector at pytorch.org (CPU or CUDA build, pip)
+# 3. Then run: python -m pip install -r requirements.txt
+
+torch==2.14.0
+numpy==2.4.6
+pandas==3.0.6
+scikit-learn==1.9.1
+wfdb==4.3.1
+matplotlib==3.11.2
+opacus==1.6.0
+shap==0.51.0
+streamlit==1.64.0
+flwr[simulation]==1.38.0
+scipy==1.17.1
+pytest==9.1.1
+imbalanced-learn==0.14.2

@@ -61,8 +61,8 @@ Full tables: `results/baselines/baseline_table_test.csv` and `results/cnn/`.
 1. Install Anaconda or Miniconda.
 2. Create and activate a conda environment:
 ```bash
-conda create -n privfedxai python=3.11
-conda activate privfedxai
+conda create -n PrivFEDX python=3.11
+conda activate PrivFEDX
 ```
    Install all packages below with pip, not conda.
 3. Install PyTorch for your hardware (pip option) from https://pytorch.org/get-started/locally/

@@ -1,5 +1,5 @@
 # PrivFedXAI dependencies
-# 1. conda create -n privfedxai python=3.11 && conda activate privfedxai
+# 1. conda create -n PrivFEDX python=3.11 && conda activate PrivFEDX
 # 2. Install PyTorch FIRST using the selector at pytorch.org (CPU or CUDA build, pip)
 # 3. Then run: python -m pip install -r requirements.txt
 
